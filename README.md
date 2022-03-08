@@ -1,3 +1,3 @@
-# web-platform-pmuzyy
+# Founders and coders prompts
 
 [Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-pmuzyy)
