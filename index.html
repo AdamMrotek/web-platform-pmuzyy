@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script defer src="script.js"></script>
+    <script defer src="arrayController.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+  <body>
+    <h1>Hello there!</h1>
+
+    <div class="codename">
+      <form action="#">
+        <label for="codename">Codename</label>
+        <input type="text" name="codename" />
+        <button>Check</button>
+      </form>
+    </div>
+
+    <div class="array-methods">
+      <h1>Array Methods!</h1>
+      <form action="#" class="array-methods__form">
+        <label for="arrayInput">Array</label>
+        <input
+          type="text"
+          
+          pattern="(,?\-?[0-9]+,?)+"
+          title="Number seperated by commas ',' "
+          name="arrayInput"
+        />
+        <br /><br />
+        <div class="radios">
+          <input
+            type="radio"
+            checked
+            id="filter"
+            name="method"
+            value="filter"
+          />
+          <label for="filter">filter</label><br />
+          <input type="radio" id="reduce" name="method" value="reduce" />
+          <label for="reduce">reduce</label><br />
+        </div>
+
+        <br />
+        <button>Get Results</button>
+      </form>
+    </div>
+  </body>
+</html>
